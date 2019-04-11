@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\Helpers">
+      <UniqueIdentifier>{1b3e0ef6-5d80-4a06-a833-88ff7afad666}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ezGfx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\xImage.cpp">
+      <Filter>Sources\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\xJpegLoader.cpp">
+      <Filter>Sources\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\xPngLoader.cpp">
+      <Filter>Sources\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\xTargaLoader.cpp">
+      <Filter>Sources\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ezGfxPlusImage.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ezGfxPlusApplication.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ezGfxPlusEvents.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ezGfxPlusCanvas.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ezGfxPlusMath.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ezGfxPlusRefCounted.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ezGfxPlus.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\xHPTimer.h">
+      <Filter>Sources\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\xImage.h">
+      <Filter>Sources\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\xJpegLoader.h">
+      <Filter>Sources\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\xPngLoader.h">
+      <Filter>Sources\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\xTargaLoader.h">
+      <Filter>Sources\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ezGfxPlusImage.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="ezGfxPlusApplication.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="ezGfxPlusEvents.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="ezGfxPlusCanvas.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="ezGfxPlusMath.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="ezGfxPlusRefCounted.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

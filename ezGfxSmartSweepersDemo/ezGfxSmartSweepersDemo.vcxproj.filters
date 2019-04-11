@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\simulation">
+      <UniqueIdentifier>{f0bbe7cf-db62-4c40-ac1f-ff0361d964f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ezGfxSmartSweepersDemo.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C2DMatrix.cpp">
+      <Filter>Sources\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CController.cpp">
+      <Filter>Sources\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CGenAlg.cpp">
+      <Filter>Sources\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CMinesweeper.cpp">
+      <Filter>Sources\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CNeuralNet.cpp">
+      <Filter>Sources\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CParams.cpp">
+      <Filter>Sources\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Sources\simulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C2DMatrix.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CController.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CGenAlg.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CMineSweeper.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CNeuralNet.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CParams.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="SVector2D.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Sources\simulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
