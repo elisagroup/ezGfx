@@ -27,7 +27,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ezGfxPlusLCDWatch", "ezGfxP
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ezGfxPlusBallPhysics", "ezGfxPlusBallPhysics\ezGfxPlusBallPhysics.vcxproj", "{94ECACB9-83DF-430A-A87E-EFB05E156C7E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ezGfxPlusWorldClock", "ezGfxPlusWorldClock\ezGfxPlusWorldClock.vcxproj", "{4BE35BB0-407E-4123-B9FF-2696AF5F6BEF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ezGfxMeelyFSM", "ezGfxFSM\ezGfxMeelyFSM.vcxproj", "{1B979957-9331-4C34-BDA0-A691C2A3C604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,10 +83,10 @@ Global
 		{94ECACB9-83DF-430A-A87E-EFB05E156C7E}.Debug|Win32.Build.0 = Debug|Win32
 		{94ECACB9-83DF-430A-A87E-EFB05E156C7E}.Release|Win32.ActiveCfg = Release|Win32
 		{94ECACB9-83DF-430A-A87E-EFB05E156C7E}.Release|Win32.Build.0 = Release|Win32
-		{4BE35BB0-407E-4123-B9FF-2696AF5F6BEF}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4BE35BB0-407E-4123-B9FF-2696AF5F6BEF}.Debug|Win32.Build.0 = Debug|Win32
-		{4BE35BB0-407E-4123-B9FF-2696AF5F6BEF}.Release|Win32.ActiveCfg = Release|Win32
-		{4BE35BB0-407E-4123-B9FF-2696AF5F6BEF}.Release|Win32.Build.0 = Release|Win32
+		{1B979957-9331-4C34-BDA0-A691C2A3C604}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B979957-9331-4C34-BDA0-A691C2A3C604}.Debug|Win32.Build.0 = Debug|Win32
+		{1B979957-9331-4C34-BDA0-A691C2A3C604}.Release|Win32.ActiveCfg = Release|Win32
+		{1B979957-9331-4C34-BDA0-A691C2A3C604}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
